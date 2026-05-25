@@ -282,74 +282,13 @@ GET    /api/interviews/progress/                   # User progress
 
 ---
 
-##  Testing
 
-### Backend Tests
-```bash
-cd backend/HirelyBackend
-python manage.py test
-```
-
-### Frontend Tests
-```bash
-cd hirely-frontend
-npm run test
-```
-
----
-
-## 🚢 Deployment
-
-### Docker
-```bash
-docker-compose up -d
-```
-
-### Railway/Heroku
-```bash
-# Configure environment variables in platform dashboard
-# Connect repository
-# Deploy
-```
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
----
-
-##  License
-
-This project is licensed under the MIT License.
-
----
-
-## Authors
-
-- **Developer** - [red445992](https://github.com/red445992)
-
----
 
 ##  Acknowledgments
 
 - Google Gemini AI for interview intelligence
 - VAPI for voice interview capabilities
 - Shadcn/ui for beautiful components
-- Vercel for Next.js framework
-
----
-
-##  Support
-
-For issues and questions:
-- **GitHub Issues**: [Create an issue](https://github.com/red445992/Hirely---Ai-powered-Job-portal/issues)
-- **Email**: Support contact
 
 ---
 
